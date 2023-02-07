@@ -14,6 +14,10 @@
     font-size: 36px;
   }
 
+  .link-active {
+    color: var(--present-state-color);
+  }
+
 
   .merits-item {
     width: 396px;

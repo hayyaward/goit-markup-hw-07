@@ -8,6 +8,7 @@
   .footer-container,
   .portfolio-container {
     width: 1158px;
+    max-width: 1440px;
   }
 
   .header {
@@ -15,7 +16,7 @@
   }
 
   .header-container {
-    height: 24px;
+    
   }
 
   .header-list {
@@ -41,6 +42,7 @@
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
+   width: 1440px;
   }
 
   .hero-title {

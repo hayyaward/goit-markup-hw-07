@@ -14,11 +14,12 @@
   }
 
   .header {
-    padding-bottom: 9px;
+    padding-top: 24px;
+    padding-bottom: 22px;
   }
 
   .header-container {
-    height: 36px;
+    
   }
 
   .header-list {
@@ -55,7 +56,7 @@
     border-radius: 2px;
     background-color: var(--present-state-color);
     left: 0;
-    bottom: -20px;
+    bottom: -32px;
     color: var(--present-state-color);
   }
 
@@ -154,7 +155,7 @@
   }
 
 
-  .footer-conteiner {
+  .footer-container {
     width: 582px;
     margin: 0 auto;
   }
@@ -225,8 +226,8 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+/* @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-container {
     padding-left: 108px;
   }
-}
+} */

@@ -59,7 +59,7 @@ img {
   color: var(--dark-color);
 }
 
-.second-titele {
+.second-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -325,6 +325,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+ 
   margin: 0 auto;
 }
 
@@ -815,7 +816,7 @@ body {
 .modal-close:hover,
 .modal-close:focus {
   background-color: var(--present-state-color);
-  border-color: var(--present-state-color);
+  border-color: transparent;
   outline: none;
 }
 
@@ -827,6 +828,7 @@ body {
 
 .modal-close-icon {
   fill: #000000;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .modal-title {
@@ -919,6 +921,7 @@ textarea::placeholder {
   letter-spacing: 0.04em;
   color: #757575;
   gap: 8px;
+  
 }
 
 .modal-privacy-check {
@@ -933,11 +936,18 @@ textarea::placeholder {
   border-radius: 2px;
 }
 
+/* .modal-privacy-lable span{
+  fill: transparent;
+} */
+
+
+
 .input-check:checked + .modal-privacy-lable span {
   fill: var(--light-color);
-  background: var(--present-state-color);
+  background-color: var(--present-state-color);
   border: 1.25px solid var(--present-state-color);
 }
+
 
 .modal-policy-link {
   text-decoration: underline;
